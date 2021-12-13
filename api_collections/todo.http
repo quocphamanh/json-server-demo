@@ -1,0 +1,48 @@
+@baseUrl=http://localhost:3001/api
+# todo
+
+@resourceName=todos
+
+# @name getAll
+GET {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name add
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "title": "quocpa",
+    "description": "abc@123"
+}
+
+###
+
+# @name update
+PATCH {{baseUrl}}/{{resourceName}}/1
+Content-Type: application/json
+
+{
+    "title": "quocpa new"
+}
+
+###
+
+# @name delete
+DELETE {{baseUrl}}/{{resourceName}}/2
+
+###
+
+# @name filter
+GET {{baseUrl}}/{{resourceName}}?title=Thành Công Nguyễn
+
+###
+
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=title&_order=desc
+
+###
+
+# @name paginate
+GET {{baseUrl}}/{{resourceName}}?_page=1&_limit=100

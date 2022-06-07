@@ -38,11 +38,56 @@
   ],
   "apiInfos": [
     {
+      "APINo": "100000001000001",
+      "Version": 1,
+      "AccountNo": "1",
+      "CategoryNo": 1,
+      "PublicStatus": 0,
+      "APIName": "AeroDataBox",
+      "APIImage": null,
+      "ShortDescription": "enthusiast-driven best-effort aviation and flight data API suitable for smaller travel, hospitality, or aviation applications, researchers, small teams, and individual developers.Features include, but not limited to: flight status, flight delays, schedules, FIDS, airports, airport schedules, airport delay index, airport statistics, airport local time, runways, distance and flight-time between airports, aircrafts, aircraft images, aircraft image recognition by registration, PUSH API.",
+      "LongDescription": "<h3>Availability of the API in the last 30 days</h3><p><img src='https://app.statuscake.com/button/index.php?Track=1iySKWJj1E&amp;Days=30&amp;Design=2' alt='' /></p><ul><li><a href='https://status.aerodatabox.com' rel='noopener noreferrer external nofollow ugc' target='' _blank=''>Uptime Status and Down-time Events</a></li></ul><h2>Features</h2><h3>Flight API</h3><ul><li>FIDS / Schedules: departures and arrivals per airport</li><li>Flight status and information found by flight number, ATC call-sign, aircraft registration or 24-bit ICAO Mode-S address (nearest or on a specific date)</li><li>Flight departure dates found by flight number, ATC call-sign, aircraft registration or 24-bit ICAO Mode-S address</li><li>Flight delay statistics by flight number</li></ul><h3>Subscription / PUSH API</h3><p>Web-hook PUSH API. Get your web-endpoint called when a flight is updated. Subscribe by flight number or airport.</p><h3>Airport API</h3><ul><li>Airport found by IATA/ICAO code</li><li>Airport runways</li><li>Nearest airports found by location</li><li>Airports free-text search (auto-complete)</li><li>Local time at an airport</li><li>Current airport delay statistics and airport delay index</li><li>Airport daily routes statistics</li><li>Calculate distance &amp; flight time between airports</li></ul><h3>Aircraft API</h3>",
+      "Website": "https://aerodatabox.com/",
+      "Documentation": null,
+      "TermsOfUse": "Even a small API, like ours, processes significant amounts of data on daily basis, which requires regular payment for server infrastructure, constant maintenance and attention from people involved into the project. Henceforth, our API is freemiun, which means that you can use it for free within a certain quota. Afterwards, you can subscribe to a pricing plan of your choice, and a symbolic monthly fee will be applied.Keep in mind, that our API usage quotas are very generous and offered at much lower rates than in average on the market. These lower rates is a very modest attempt to compensate hosting and maintenance expenses incurred by software engineering and aviation enthusiasts who are not getting paid for their efforts developing this API during their spare time.We charge for service only, and NOT for the data.This API is meant for supporting smaller applications teams, researchers, individual developers and anyone else who can’t afford hefty charges imposed by market-leading data companies and who is OK with having less in terms of data precision and service stability. Though we provide very generous monthly quotas, those are not meant to be spent within few first hours after subscribing. This API is NOT fit for bulk downloading all our database in once by shooting several requests per second over few hours or even days in a row non-stop. We reserve a right to temporarily block users exercising such practices without warning at any time if we consider their behavior is negatively affecting performance of the service",
+      "Tutorial": null
+    },
+    {
       "APINo": "100000001000002",
+      "Version": 3,
+      "AccountNo": "3",
+      "CategoryNo": 2,
+      "PublicStatus": 1,
+      "APIName": "AeroDataBoxLoremIms",
+      "APIImage": null,
+      "ShortDescription": "enthusiast-driven best-effort aviation and flight data API suitable for smaller travel, hospitality, or aviation applications, researchers, small teams, and individual developers.Features include, but not limited to: flight status, flight delays, schedules, FIDS, airports, airport schedules, airport delay index, airport statistics, airport local time, runways, distance and flight-time between airports, aircrafts, aircraft images, aircraft image recognition by registration, PUSH API.",
+      "LongDescription": "<h3>Availability of the API in the last 30 days</h3><p><img src='https://app.statuscake.com/button/index.php?Track=1iySKWJj1E&amp;Days=30&amp;Design=2' alt='' /></p><ul><li><a href='https://status.aerodatabox.com' rel='noopener noreferrer external nofollow ugc' target='' _blank=''>Uptime Status and Down-time Events</a></li></ul><h2>Features</h2><h3>Flight API</h3><ul><li>FIDS / Schedules: departures and arrivals per airport</li><li>Flight status and information found by flight number, ATC call-sign, aircraft registration or 24-bit ICAO Mode-S address (nearest or on a specific date)</li><li>Flight departure dates found by flight number, ATC call-sign, aircraft registration or 24-bit ICAO Mode-S address</li><li>Flight delay statistics by flight number</li></ul><h3>Subscription / PUSH API</h3><p>Web-hook PUSH API. Get your web-endpoint called when a flight is updated. Subscribe by flight number or airport.</p><h3>Airport API</h3><ul><li>Airport found by IATA/ICAO code</li><li>Airport runways</li><li>Nearest airports found by location</li><li>Airports free-text search (auto-complete)</li><li>Local time at an airport</li><li>Current airport delay statistics and airport delay index</li><li>Airport daily routes statistics</li><li>Calculate distance &amp; flight time between airports</li></ul><h3>Aircraft API</h3>",
+      "Website": "https://google.com.vn/",
+      "Documentation": null,
+      "TermsOfUse": "Even a small API, like ours, processes significant amounts of data on daily basis, which requires regular payment for server infrastructure, constant maintenance and attention from people involved into the project. Henceforth, our API is freemiun, which means that you can use it for free within a certain quota. Afterwards, you can subscribe to a pricing plan of your choice, and a symbolic monthly fee will be applied.Keep in mind, that our API usage quotas are very generous and offered at much lower rates than in average on the market. These lower rates is a very modest attempt to compensate hosting and maintenance expenses incurred by software engineering and aviation enthusiasts who are not getting paid for their efforts developing this API during their spare time.We charge for service only, and NOT for the data.This API is meant for supporting smaller applications teams, researchers, individual developers and anyone else who can’t afford hefty charges imposed by market-leading data companies and who is OK with having less in terms of data precision and service stability. Though we provide very generous monthly quotas, those are not meant to be spent within few first hours after subscribing. This API is NOT fit for bulk downloading all our database in once by shooting several requests per second over few hours or even days in a row non-stop. We reserve a right to temporarily block users exercising such practices without warning at any time if we consider their behavior is negatively affecting performance of the service",
+      "Tutorial": null
+    },
+    {
+      "APINo": "100000001000003",
       "Version": 2,
       "AccountNo": "2",
       "CategoryNo": 2,
-      "PublicStatus": 2,
+      "PublicStatus": 1,
+      "APIName": "AeroDataBoxLoremIms",
+      "APIImage": null,
+      "ShortDescription": "enthusiast-driven best-effort aviation and flight data API suitable for smaller travel, hospitality, or aviation applications, researchers, small teams, and individual developers.Features include, but not limited to: flight status, flight delays, schedules, FIDS, airports, airport schedules, airport delay index, airport statistics, airport local time, runways, distance and flight-time between airports, aircrafts, aircraft images, aircraft image recognition by registration, PUSH API.",
+      "LongDescription": "<h3>Availability of the API in the last 30 days</h3><p><img src='https://app.statuscake.com/button/index.php?Track=1iySKWJj1E&amp;Days=30&amp;Design=2' alt='' /></p><ul><li><a href='https://status.aerodatabox.com' rel='noopener noreferrer external nofollow ugc' target='' _blank=''>Uptime Status and Down-time Events</a></li></ul><h2>Features</h2><h3>Flight API</h3><ul><li>FIDS / Schedules: departures and arrivals per airport</li><li>Flight status and information found by flight number, ATC call-sign, aircraft registration or 24-bit ICAO Mode-S address (nearest or on a specific date)</li><li>Flight departure dates found by flight number, ATC call-sign, aircraft registration or 24-bit ICAO Mode-S address</li><li>Flight delay statistics by flight number</li></ul><h3>Subscription / PUSH API</h3><p>Web-hook PUSH API. Get your web-endpoint called when a flight is updated. Subscribe by flight number or airport.</p><h3>Airport API</h3><ul><li>Airport found by IATA/ICAO code</li><li>Airport runways</li><li>Nearest airports found by location</li><li>Airports free-text search (auto-complete)</li><li>Local time at an airport</li><li>Current airport delay statistics and airport delay index</li><li>Airport daily routes statistics</li><li>Calculate distance &amp; flight time between airports</li></ul><h3>Aircraft API</h3>",
+      "Website": "https://google.com.vn/",
+      "Documentation": null,
+      "TermsOfUse": "Even a small API, like ours, processes significant amounts of data on daily basis, which requires regular payment for server infrastructure, constant maintenance and attention from people involved into the project. Henceforth, our API is freemiun, which means that you can use it for free within a certain quota. Afterwards, you can subscribe to a pricing plan of your choice, and a symbolic monthly fee will be applied.Keep in mind, that our API usage quotas are very generous and offered at much lower rates than in average on the market. These lower rates is a very modest attempt to compensate hosting and maintenance expenses incurred by software engineering and aviation enthusiasts who are not getting paid for their efforts developing this API during their spare time.We charge for service only, and NOT for the data.This API is meant for supporting smaller applications teams, researchers, individual developers and anyone else who can’t afford hefty charges imposed by market-leading data companies and who is OK with having less in terms of data precision and service stability. Though we provide very generous monthly quotas, those are not meant to be spent within few first hours after subscribing. This API is NOT fit for bulk downloading all our database in once by shooting several requests per second over few hours or even days in a row non-stop. We reserve a right to temporarily block users exercising such practices without warning at any time if we consider their behavior is negatively affecting performance of the service",
+      "Tutorial": null
+    },
+    {
+      "APINo": "100000001000004",
+      "Version": 2,
+      "AccountNo": "2",
+      "CategoryNo": 2,
+      "PublicStatus": 1,
       "APIName": "AeroDataBoxLoremIms",
       "APIImage": null,
       "ShortDescription": "enthusiast-driven best-effort aviation and flight data API suitable for smaller travel, hospitality, or aviation applications, researchers, small teams, and individual developers.Features include, but not limited to: flight status, flight delays, schedules, FIDS, airports, airport schedules, airport delay index, airport statistics, airport local time, runways, distance and flight-time between airports, aircrafts, aircraft images, aircraft image recognition by registration, PUSH API.",
@@ -73,6 +118,307 @@
       "APINo": "100000001000002",
       "AccountNo": "2",
       "Name": "quocpa"
+    },
+    {
+      "APINo": "100000001000003",
+      "AccountNo": "1",
+      "Name": "tuanpha"
+    },
+    {
+      "APINo": "100000001000004",
+      "AccountNo": "2",
+      "Name": "nganttt"
     }
-  ]
+  ],
+  "apiSummary": [
+    {
+      "APINo": "100000000100001",
+      "EndpointName": "Quotes",
+      "APIName": "api name test",
+      "datas": [
+        {
+          "SummaryDate": "20220525",
+          "AccessCount": 1527,
+          "ErrorCount": 10,
+          "Latency": 109
+        },
+        {
+          "SummaryDate": "20220526",
+          "AccessCount": 1967,
+          "ErrorCount": 21,
+          "Latency": 249
+        },
+        {
+          "SummaryDate": "20220527",
+          "AccessCount": 2215,
+          "ErrorCount": 19,
+          "Latency": 181
+        },
+        {
+          "SummaryDate": "20220528",
+          "AccessCount": 2684,
+          "ErrorCount": 25,
+          "Latency": 224
+        },
+        {
+          "SummaryDate": "20220529",
+          "AccessCount": 2505,
+          "ErrorCount": 29,
+          "Latency": 265
+        },
+        {
+          "SummaryDate": "20220530",
+          "AccessCount": 1637,
+          "ErrorCount": 22,
+          "Latency": 255
+        },
+        {
+          "SummaryDate": "20220531",
+          "AccessCount": 1772497,
+          "ErrorCount": 17664,
+          "Latency": 199.49335711146477
+        }
+      ]
+    },
+    {
+      "APINo": "100000000100002",
+      "EndpointName": "Quotes1",
+      "APIName": "api name test",
+      "datas": [
+        {
+          "SummaryDate": "20220525",
+          "AccessCount": 1684,
+          "ErrorCount": 16,
+          "Latency": 275
+        },
+        {
+          "SummaryDate": "20220526",
+          "AccessCount": 1250,
+          "ErrorCount": 11,
+          "Latency": 148
+        },
+        {
+          "SummaryDate": "20220527",
+          "AccessCount": 1324,
+          "ErrorCount": 22,
+          "Latency": 147
+        },
+        {
+          "SummaryDate": "20220528",
+          "AccessCount": 1920,
+          "ErrorCount": 30,
+          "Latency": 129
+        },
+        {
+          "SummaryDate": "20220529",
+          "AccessCount": 2037,
+          "ErrorCount": 30,
+          "Latency": 182
+        },
+        {
+          "SummaryDate": "20220530",
+          "AccessCount": 1895,
+          "ErrorCount": 27,
+          "Latency": 292
+        },
+        {
+          "SummaryDate": "20220531",
+          "AccessCount": 1748626,
+          "ErrorCount": 17433,
+          "Latency": 199.73467739814004
+        }
+      ]
+    },
+    {
+      "APINo": "100000000100003",
+      "EndpointName": "Quotes2",
+      "APIName": "api name test",
+      "datas": [
+        {
+          "SummaryDate": "20220525",
+          "AccessCount": 2322,
+          "ErrorCount": 27,
+          "Latency": 117
+        },
+        {
+          "SummaryDate": "20220526",
+          "AccessCount": 1739,
+          "ErrorCount": 11,
+          "Latency": 265
+        },
+        {
+          "SummaryDate": "20220527",
+          "AccessCount": 1535,
+          "ErrorCount": 30,
+          "Latency": 273
+        },
+        {
+          "SummaryDate": "20220528",
+          "AccessCount": 1952,
+          "ErrorCount": 11,
+          "Latency": 278
+        },
+        {
+          "SummaryDate": "20220529",
+          "AccessCount": 1669,
+          "ErrorCount": 10,
+          "Latency": 146
+        },
+        {
+          "SummaryDate": "20220530",
+          "AccessCount": 2618,
+          "ErrorCount": 21,
+          "Latency": 239
+        },
+        {
+          "SummaryDate": "20220531",
+          "AccessCount": 1783567,
+          "ErrorCount": 17664,
+          "Latency": 196.68080761754393
+        }
+      ]
+    },
+    {
+      "APINo": "100000000100004",
+      "EndpointName": "Quotes21",
+      "APIName": "api name test",
+      "datas": [
+        {
+          "SummaryDate": "20220531",
+          "AccessCount": 1730914,
+          "ErrorCount": 17383,
+          "Latency": 199.03173467890375
+        }
+      ]
+    }
+  ],
+  "apiLogs": {
+    "pageCount": 541,
+    "currentPage": 1,
+    "itemCount": 5401,
+    "pageSize": 10,
+    "datas": [
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:06:38.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "963e:34d7:72f:eb45:9cd6:2c7b:5ec:8968",
+        "ResponseStatus": "200",
+        "Latency": "244.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:07:42.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "98fd:c81d:43dd:bdb6:d548:fd14:ed3:a65f",
+        "ResponseStatus": "200",
+        "Latency": "245.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:09:01.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "ff02:6c96:cbd9:893:2bf5:9487:3cf5:14b7",
+        "ResponseStatus": "200",
+        "Latency": "187.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:09:59.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "1461:c688:331e:9ada:967e:8007:20b3:1b67",
+        "ResponseStatus": "200",
+        "Latency": "136.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:10:27.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "badf:5181:bc64:ee3:f7b:7fab:e145:640e",
+        "ResponseStatus": "200",
+        "Latency": "226.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:10:52.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "128c:b875:561b:d5b8:47e3:9b43:36f4:6897",
+        "ResponseStatus": "200",
+        "Latency": "193.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:14:42.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "909a:a8bf:c60c:c595:e9c7:862d:9354:cad2",
+        "ResponseStatus": "200",
+        "Latency": "107.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:15:33.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "255f:73c5:8d41:761d:7e34:6527:69d7:dead",
+        "ResponseStatus": "200",
+        "Latency": "165.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:16:12.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "6f15:4192:f051:a250:c19c:5743:4248:8c46",
+        "ResponseStatus": "200",
+        "Latency": "111.0"
+      },
+      {
+        "AccountNo": "1000000001",
+        "APINo": "100000000100001",
+        "AccessDateTime": "2022-05-25T09:16:20.000+09:00",
+        "APIName": "api name test",
+        "Version": 1,
+        "EndpointName": "Quotes1",
+        "Method": "GET",
+        "Location": "c8:51e1:a8d9:f74c:849c:6900:f29a:2e6f",
+        "ResponseStatus": "200",
+        "Latency": "196.0"
+      }
+    ]
+  }
+
 }

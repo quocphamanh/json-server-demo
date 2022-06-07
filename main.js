@@ -69,6 +69,26 @@ server.post("/api/provider/global/delete_api_info", (req, res) => {
   });
 });
 
+server.post("/api/provider/global/update_status", (req, res) => {
+  const { APINo, apiInfo } = req.query;
+  const db = router.db;
+  const apiInfos = db.get("apiInfos").__wrapped__.apiInfos;
+  const apiInfoUpdate = apiInfos.find((item) => item.APINo === APINo);
+  const newApiInfo = {
+    ...apiInfoUpdate,
+    PublicStatus: JSON.parse(apiInfo).PublicStatus
+  }
+  const table = db.get("apiInfos");
+  table.remove(apiInfoUpdate).write();
+  table.push(newApiInfo).write();
+
+  res.jsonp({
+    data: {
+      common: { status: 200, message: "success" },
+    },
+  });
+})
+
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser);
